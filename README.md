@@ -138,6 +138,25 @@ GitHub Actions workflow at .github/workflows/ci.yml runs:
 - unit tests
 - build
 
+## Release
+
+Automated release workflow at .github/workflows/release.yml handles:
+- release quality gate (`npm run release:check`)
+- GitHub release note generation for version tags
+- npm publish with provenance (if `NPM_TOKEN` is configured)
+
+Release steps:
+1. Ensure `package.json` version is correct.
+2. Commit and push changes to `main`.
+3. Create and push a version tag:
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+4. Configure repository secret `NPM_TOKEN` to enable npm publishing.
+
 ## Notes
 
 - The tool runs locally and stores no persistent state.

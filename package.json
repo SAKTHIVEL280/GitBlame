@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/gitblame-ai.git"
+    "url": "https://github.com/SAKTHIVEL280/GitBlame.git"
   },
-  "homepage": "https://github.com/your-org/gitblame-ai#readme",
+  "homepage": "https://github.com/SAKTHIVEL280/GitBlame#readme",
   "bugs": {
-    "url": "https://github.com/your-org/gitblame-ai/issues"
+    "url": "https://github.com/SAKTHIVEL280/GitBlame/issues"
   },
   "license": "MIT",
   "type": "module",

@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SAKTHIVEL280/GitBlame.git"
+    "url": "git+https://github.com/SAKTHIVEL280/GitBlame.git"
   },
   "homepage": "https://github.com/SAKTHIVEL280/GitBlame#readme",
   "bugs": {
@@ -25,7 +25,7 @@
     "provenance": true
   },
   "bin": {
-    "gitblame.ai": "./dist/index.js"
+    "gitblame.ai": "dist/index.js"
   },
   "files": [
     "dist",
